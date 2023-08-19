@@ -134,12 +134,11 @@ These 104 rows of duplicated values are then removed from the dataset
 
 ### Step 7: Eliminating Unused Columns
 
-
-<img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/190b1dc6-aabb-47f2-ae95-a8f1ee3d057b">
-<img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/b3cf4914-1791-4f6c-a2db-eef659626904">
-
 Some columns in the dataset were not relevant to the analysis goals or contained redundant information. These unused columns were identified and subsequently deleted to streamline the dataset and reduce unnecessary complexity.
 
-Conclusion:
+<img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/190b1dc6-aabb-47f2-ae95-a8f1ee3d057b">
+
+
+### Conclusion:
 
 In this post, we explored the critical data preprocessing steps carried out on the Nashville Housing dataset. By loading the dataset into Microsoft SQL Server Management System, standardizing dates, populating missing address information, transforming categorical variables, removing duplicates, and eliminating unused columns, we successfully prepared the data for further analysis and modeling. These preprocessing steps are essential to ensure the accuracy, reliability, and effectiveness of subsequent data analysis and machine learning endeavors.
