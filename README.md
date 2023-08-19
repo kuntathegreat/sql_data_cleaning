@@ -1,7 +1,7 @@
-# sql_data_cleaning
-## The NashvilleHousing file was downloaded and loaded into microsft server management system
 
-## Title: Data Preprocessing for Nashville Housing Dataset
+The NashvilleHousing file was downloaded and loaded into microsft server management system
+
+## Data Preprocessing for Nashville Housing Dataset
 
 ## Introduction:
 
