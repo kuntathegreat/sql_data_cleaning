@@ -114,19 +114,29 @@ The Column is rechecked for the unique values after updating with the correct va
 
 
 
-<img width="905" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/0190317f-337b-40ed-a41e-88007960d12e">
-
-
 Step 6: Removing Duplicates
 
 Duplicate records can distort analysis results and lead to biased insights. Therefore, duplicate entries were identified and removed from the dataset using SQL queries, ensuring that each observation was unique.
-<img width="956" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/a621620f-ec52-47b1-9eac-680f6d072eeb">
-<img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/65c16223-dea9-4af0-837b-f78a4c816eed">
-<img width="937" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/dd984de4-0b36-473c-87de-4f76e87cafc1">
-<img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/b3cf4914-1791-4f6c-a2db-eef659626904">
 
-Step 7: Eliminating Unused Columns
+A Common Table Expression (CTE) is employed to categorize the columns for the purpose of identifying recurring values.
+
+<img width="956" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/a621620f-ec52-47b1-9eac-680f6d072eeb">
+
+104 rows contain duplicates 
+
+<img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/65c16223-dea9-4af0-837b-f78a4c816eed">
+
+These 104 rows of duplicated values are then removed from the dataset 
+
+<img width="937" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/dd984de4-0b36-473c-87de-4f76e87cafc1">
+
+
+
+### Step 7: Eliminating Unused Columns
+
+
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/190b1dc6-aabb-47f2-ae95-a8f1ee3d057b">
+<img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/b3cf4914-1791-4f6c-a2db-eef659626904">
 
 Some columns in the dataset were not relevant to the analysis goals or contained redundant information. These unused columns were identified and subsequently deleted to streamline the dataset and reduce unnecessary complexity.
 
