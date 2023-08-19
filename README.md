@@ -25,9 +25,7 @@ The CONVERT function is used to transform the SaleDate to only Year, Month and D
 
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/6df2c690-5935-417d-9251-d59dd34f07bb">
 
-
-
-<img width="710" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/495ead8c-cb5f-44f1-8ab4-c6f2e1676df6">
+A new column SaleDateConverted is added and updated with the above function.
 
 <img width="713" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/99969a6a-1bcd-40f0-9b22-9172a5c0432a">
 
