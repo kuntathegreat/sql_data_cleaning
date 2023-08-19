@@ -16,12 +16,15 @@ The first step involved downloading the Nashville Housing dataset and loading it
 
 One of the initial challenges in the dataset was dealing with various date formats. To ensure consistency, all date columns were standardized to a common format using SQL queries. This standardized format facilitated subsequent analysis and visualization.
 
-The current date format for the SaleDate us highlighted below. It contains the Year, Month, day, Hour, Minute and Second.
+
 <img width="710" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/d593bf61-e58d-4550-a3e7-52a3475df0e7">
 
-The CONVERT function is used to transform the SaleDate to only Year, Month and Day.
+The current date format for the SaleDate us highlighted below. It contains the Year, Month, day, Hour, Minute and Second.
+
 
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/6df2c690-5935-417d-9251-d59dd34f07bb">
+
+The CONVERT function is used to transform the SaleDate to only Year, Month and Day.
 
 <img width="710" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/495ead8c-cb5f-44f1-8ab4-c6f2e1676df6">
 
