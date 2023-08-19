@@ -33,10 +33,24 @@ A new column SaleDateConverted is added and updated with the above function.
 ### Step 3: Handling Missing Data
 
 Address information is crucial in housing datasets, but the PropertyAddress column had missing data. To address this, missing values in the PropertyAddress column were populated using various data sources and matching techniques. This step ensured that address-related information was available for further analysis.
+
+
 <img width="710" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/55ff730f-1522-4bc6-9841-d8e19f780485">
+
+To begin with, our observation reveals the existence of missing data within the PropertyAddress column. The NULL function is utilized for this step.
+
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/95aa745c-b0cd-4ddb-b03a-5f1e81ab3982">
+
+Subsequently, we proceed to populate the missing values in the PropertyAddress column using the address information associated with the same parcelId.
+
 <img width="709" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/761f4089-c739-4b45-a835-3c95a254068d">
+
+
+
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/0f2e3f51-26d5-41ef-98f5-bd3c6af18108">
+
+The dataset is rechecked for missing values in the Property Address with multiple matching ParcelId.
+
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/6078db13-3894-4e86-b348-9dad8d6f8994">
 
 
