@@ -88,14 +88,32 @@ Results shown.
 
 The PropertyAddress column contained complete address information, including city and state. To enhance data organization and querying, the address information was broken down into separate columns for address, city, and state using SQL string manipulation functions.
 
-Step 5: Handling Categorical Data
+### Step 5: Handling Categorical Data
 
 The SoldAsVacant field contained values "Y" and "N," which were transformed to "Yes" and "No" for better interpretability and consistency. This transformation improved the clarity of the data and its subsequent analysis.
+
+Displaying the first few rows of the SoldAsVacant Column.
+
 <img width="707" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/a7d12c47-a026-43de-a7bd-2ac4e0a41d73">
+
+We proceed to checking for all the unique values contained down the column.
+
 <img width="708" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/1c21e17a-e70e-4e3d-80a0-df8579a41d28">
+
+CASE is used to replace all the 'Y' and 'N' with 'YES' and 'NO'.
+
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/1dde2e84-57f5-47a1-ad9c-9b516a20925d">
+
+The UPDATE function is then used to update the SoldAsVacant column entries.
+
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/14d935f5-fe52-4a4e-b6e1-c6e0462fa345">
+
+The Column is rechecked for the unique values after updating with the correct values.
+
 <img width="710" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/eacbc670-19c8-4ddb-9eef-13eac291f6e6">
+
+
+
 <img width="905" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/0190317f-337b-40ed-a41e-88007960d12e">
 
 
