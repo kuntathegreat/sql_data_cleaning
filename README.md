@@ -54,13 +54,19 @@ The dataset is rechecked for missing values in the Property Address with multipl
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/6078db13-3894-4e86-b348-9dad8d6f8994">
 
 
+
 Step 4: Breaking Address Information
 
-We employed the SUBSTRING and CHARINDEX functions to extract the address and city information from the PropertyAddress Column.
+A quick view of the PropertyAddress column is observed.
 <img width="711" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/2acc66d1-5cc5-42a5-9633-d59bd5b46be7">
 
-New Columns were created for the Updated Address and Updated City that were extracted. These columns are then populated using the above functions.
+We employed the SUBSTRING and CHARINDEX functions to extract the address and city information from the PropertyAddress Column.
+
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/d7eab34f-90f5-4fa6-81f2-95fb17a9195c">
+
+New Columns were created for the Updated Address and Updated City that were extracted. These columns are then populated using the above functions.
+
+
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/bbbc3ec0-3d04-40d8-83a2-c4de9b004486">
 <img width="713" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/cc502468-b49a-4ba0-a958-cb85597df231">
 <img width="712" alt="image" src="https://github.com/kuntathegreat/sql_data_cleaning/assets/60355382/b8d0c512-7ad0-4ae4-9405-3b9c3ca09b53">
