@@ -1,5 +1,5 @@
 
-The NashvilleHousing file was downloaded and loaded into microsft server management system
+The NashvilleHousing file was downloaded and loaded into microsft sql server management system
 
 ## Data Preprocessing for Nashville Housing Dataset
 
